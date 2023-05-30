@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../Header";
 import Slider from "../Slider";
+import Footer from "../Footer";
 import "./home.css";
 import Image from "./images/banner_sports.png";
 import BannerSaba from "./images/banner_SabaSport.png";
@@ -391,6 +392,7 @@ function index() {
 				</ul>
 			</div>
 			{/* <!-- left-side sticky ends --> */}
+			<Footer />
 		</>
 	);
 }
