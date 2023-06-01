@@ -9,8 +9,8 @@ function index() {
 				<ul>
 					<li id="mini" class="main-nav">
 						<a
-							href="/AEGAMEPLAY"
-							class="ui-link"
+							href="/login"
+							className="ui-link"
 							style={{ marginTop: "-6.26667vw" }}
 						>
 							<img class="icon-promote" src={Casino} alt="mini" />
