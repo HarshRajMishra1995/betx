@@ -17,7 +17,7 @@ function index() {
 						</a>
 					</li>
 					<li id="sports" className="navlink">
-						<a className="ui-link" href="Sports.php">
+						<a className="ui-link" href="/sports">
 							<span className="icon-sports"></span>
 							Sports
 						</a>
