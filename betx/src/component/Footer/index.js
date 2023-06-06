@@ -23,7 +23,7 @@ function index() {
 						</a>
 					</li>
 					<li id="inPlay" className="navlink">
-						<a className="ui-link" href="inPlay.php">
+						<a className="ui-link" href="/inplay">
 							<span className="icon-inplay"></span>
 							In-Play
 						</a>

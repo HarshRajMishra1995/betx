@@ -1,0 +1,74 @@
+.mian-wrap {
+    position: relative;
+    padding: 0 0 17.6vw;
+    overflow: hidden;
+}
+
+.tab-wrap {
+    background-color: #172832;
+    color: #fff;
+    font-size: 3.73333vw;
+    line-height: 8.8vw;
+    font-weight: bold;
+    padding: 1.86667vw;
+}
+
+.tab-wrap ul {
+    border: 1px solid #fff;
+    border-radius: 1.6vw;
+}
+
+.tab-wrap li {
+    flex: 1;
+    border-right: 1px solid #fff;
+}
+
+.tab-wrap li.select {
+    background-color: #fff;
+}
+.tab-wrap li:first-of-type {
+    border-radius: 1.33333vw 0 0 1.33333vw;
+}
+
+.tab-wrap li.select a {
+    color: #172832 !important;
+}
+
+.tab-wrap a {
+    color: #fff;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+
+.highlight-list .inplay-on .time, .inplay-list .inplay-on .time, .highlight-list .inplay-off .time, .inplay-list .inplay-off .time {
+    font-weight: normal;
+}
+
+.highlight-list .time, .inplay-list .time, .upcoming-list .time {
+    font-size: 3.2vw;
+    line-height: 1.1;
+    color: #777;
+    margin-right: 1.33333vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
