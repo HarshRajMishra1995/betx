@@ -29,13 +29,13 @@ function index() {
 						</a>
 					</li>
 					<li id="index" className="navlink">
-						<a className="ui-link" href="index.php">
+						<a className="ui-link" href="/">
 							<span className="icon-home"></span>
 							Home
 						</a>
 					</li>
 					<li id="account" className="navlink">
-						<a className="ui-link" href="account.php">
+						<a className="ui-link" href="/login">
 							<span className="icon-account"></span>
 							Account
 						</a>
