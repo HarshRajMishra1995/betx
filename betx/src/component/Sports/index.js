@@ -205,10 +205,7 @@ function index() {
 							<a id="multiMarketPin" className="pin-off" href="#"></a>
 						</li>
 						<li id="highlightEvent_-10154695" className="inplay-on">
-							<a
-								id="info"
-								href='javascript:MobileMenuHandler.loadPage("fullMarket.jsp?eventType=4&amp;eventId=-10154695&amp;marketId=-10154727",true)'
-							>
+							<a id="info" href="/match">
 								<dl>
 									<dt>
 										<span
