@@ -620,6 +620,12 @@ strong {
 .sports-book .back-1 {
 	background-color: #72e3a0;
 }
+.back-1 {
+	background-color: #76baeb;
+}
+.lay-1 {
+	background-color: #faa9ba;
+}
 
 .bets-selections a,
 .trade p,
@@ -1203,4 +1209,45 @@ input:focus,
 }
 .scores-time li {
 	margin-right: 0.1vw;
+}
+.match-btn {
+	justify-content: center;
+	list-style: none;
+	background-color: #e0e6e6;
+}
+.match-btn a {
+	align-items: center;
+	justify-content: center;
+	width: 26.66667vw;
+	height: 7.46667vw;
+	background-repeat: no-repeat;
+	background-size: contain;
+	color: #ffffff;
+	font-size: 3.2vw;
+	font-weight: bold;
+}
+
+.match-btn .btn-pin {
+	padding-left: 2.13333vw;
+	background-image: url(./images/bg-match-btn-left.png);
+	display: flex;
+	justify-content: space-evenly;
+}
+/* .match-btn .btn-pin:before {
+	background-image: url("data:image/svg+xml,<svg width="8" height="12" viewBox="00812" xmlns="http://www.w3.org/2000/svg"><path d="M6.7145.25c.857.3211.286.8121.2861.47300.232-.036.384-.107.455-.071.071-.214.107-.429.107h-2.893l-.4294.714h-0.286l-.429-4.714h-2.893c-.2140-0.357-.04-.429-.121-.071-.08-.107-.228-.107-.4420-0.661.429-1.1521.286-1.473l.143-0.054c.262-.107.429-.277.5-.509l.643-3.161v-.134c0-.143-.119-.259-.357-.348l-.036-.027h-.036c-.286-.089-.429-.241-.429-.4550-0.25.048-.406.143-.469.095-.063.262-.094.5-.094h3.286c.23800.405.031.5.094.095.063.143.219.143.46900.214-.143.366-.429.455h-.036l-.036.027c-.238.089-.357.205-.357.348v.134l.6433.161c.071.232.238.402.5.509l.143.054z" fill="rgb(
+			255,
+			255,
+			255
+		)"/></svg>");
+} */
+.match-btn .btn-refresh {
+	padding-right: 2.13333vw;
+	background-image: url(./images/bg-match-btn-right.png);
+}
+.bets-selections h4 {
+	width: 100%;
+	line-height: 1.2;
+	color: #1e1e1e;
+	font-size: 1.1rem !important;
+	font-weight: bolder;
 }
