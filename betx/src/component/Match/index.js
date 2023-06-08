@@ -296,26 +296,72 @@ function index() {
 						<dd className="mode-land"></dd>
 					</dl>
 					<dl className="bets-selections" style={{ display: "flex" }}>
-						<dt>
-							<div
-								id="horseInfo"
-								class="horse-info"
-								style={{ display: "none" }}
+						<h4
+							style={{
+								width: "65vw",
+								display: "flex",
+								justifyContent: "flex-start",
+								alignItems: "center",
+								paddingLeft: "10px",
+							}}
+						>
+							India T10
+						</h4>
+						{/* <dt>
+							<h4 style={{ width: "50%" }}>India T10</h4>
+							<ul>
+								<li></li>
+								<li></li>
+							</ul>
+						</dt> */}
+						<dd
+							className="suspend-fancy"
+							style={{
+								position: "absolute",
+								display: "flex",
+								justifyContent: "flex-end",
+								alignItems: "center",
+								width: "100%",
+							}}
+						>
+							<p
+								style={{
+									color: "white",
+									fontWeight: "bolder",
+									marginRight: "10vw",
+									marginTop: "3vw",
+								}}
 							>
-								<ul id="horseBox" class="horse-box">
-									<li id="clothNumberAlpha"></li>
-									<li id="stallDraw"></li>
-								</ul>
-								<div id="uniform" class="uniform">
-									<img src="" />
-								</div>
-								<ul id="horseName" class="horse-name">
-									<li id="runnerName"></li>
-									<li id="jockyName"></li>
-								</ul>
-							</div>
-							<h4>Rajasthan T10</h4>
-						</dt>
+								Suspend
+							</p>
+						</dd>
+						<dd className="suspend-fancy" style={{ display: "none" }}>
+							<p></p>
+						</dd>
+						<dd className="backlay_box">
+							<dl className="back-gradient">
+								<dd id="back_3" className="mode-land">
+									<p></p>
+								</dd>
+								<dd id="back_2" className="mode-land">
+									<p></p>
+								</dd>
+								<dd id="back_1" className="">
+									<a href=""></a>
+								</dd>
+							</dl>
+							<dl className="lay-gradient">
+								<dd id="lay_1" className="">
+									<a href=""></a>
+								</dd>
+								<dd id="lay_2" className="mode-land">
+									<p></p>
+								</dd>
+								<dd id="lay_3" className="mode-land">
+									<p></p>
+								</dd>
+							</dl>
+						</dd>
 					</dl>
 				</div>
 			</div>

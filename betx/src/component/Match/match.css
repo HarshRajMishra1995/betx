@@ -359,10 +359,16 @@ strong {
 .bets-bookmaker .backlay_box dl {
 	flex: 1;
 }
+
+.suspend-fancy p {
+	opacity: 0.8;
+}
+
 .back-gradient,
 .lay-gradient {
 	justify-content: center;
 	width: 18.66667vw;
+	height: 7vh;
 	background-image: linear-gradient(
 		90deg,
 		rgba(151, 199, 234, 0.7) 0%,
